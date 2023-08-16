@@ -1,0 +1,8 @@
+#https://www.baeldung.com/spring-security-oauth-jwt 
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8899/public/protocol/openid-connect/certs
